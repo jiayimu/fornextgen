@@ -1,0 +1,156 @@
+/*************** general settings ********************/
+
+p {
+    font-size: 1.2em;
+}
+
+@media (max-width: 767px) {
+    nav a {
+        font-size: 1.3em
+    }
+}
+
+
+/*************** common settings ********************/
+
+.sub-link {
+    font-size: 1.2em;
+}
+
+.white-space {
+    padding: 2% 10%;
+}
+
+.grey-space {
+    padding: 2% 10%;
+    background-color: #CCCCCC;
+}
+
+.underline-link {
+    margin-bottom: 2px;
+    padding-left: 0px;
+    border-bottom-color: #CCCCCC;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+.sub-title {
+    font-family: "微软雅黑";
+    font-weight: bold;
+    color: #7fa626;
+    font-size: 2.0em;
+}
+
+
+/* centered columns styles */
+
+.row-centered {
+    text-align: center;
+}
+
+.col-centered {
+    display: inline-block;
+    float: none;
+    /* reset the text-align */
+    text-align: left;
+    /* inline-block space fix */
+    margin-right: -4px;
+}
+
+
+/*************** navbar settings ********************/
+
+.navbar {
+    margin: 0 auto;
+}
+
+.navbar-default {
+    background-color: #6f9b43;
+    border-color: #6f9b43;
+}
+
+.navbar-default .navbar-brand {
+    color: #ffffff;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #ffffff;
+}
+
+.navbar-default .navbar-text {
+    color: #ffffff;
+}
+
+.navbar-default .nav-justified>li>a {
+    color: #ffffff;
+}
+
+.navbar-default .nav-justified>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus {
+    color: #ffffff;
+    background-color: #ffc72b;
+}
+
+.navbar-default .nav-justified>a,
+.navbar-default .nav-justified>a:hover,
+.navbar-default .nav-justified>a:focus {
+    color: #ffffff;
+    background-color: #ffc72b;
+}
+
+.navbar-default .nav-justified>a,
+.navbar-default .nav-justified>a:hover,
+.navbar-default .nav-justified>a:focus {
+    color: #ffffff;
+    background-color: #ffc72b;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #6f9b43;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #ffc72b;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #ffffff;
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+    border-color: #ffffff;
+}
+
+.navbar-default .navbar-link {
+    color: #ffffff;
+}
+
+.navbar-default .navbar-link:hover {
+    color: #ffffff;
+}
+
+@media (max-width: 767px) {
+    .navbar-default .nav-justified .dropdown-menu>li>a {
+        color: #ffffff;
+    }
+    .navbar-default .nav-justified .dropdown-menu>li>a:hover,
+    .navbar-default .nav-justified .dropdown-menu>li>a:focus {
+        color: #ffffff;
+        background-color: #ffc72b;
+    }
+    .navbar-default .nav-justified .dropdown-menu>.active>a,
+    .navbar-default .nav-justified .dropdown-menu>.active>a:hover,
+    .navbar-default .nav-justified .dropdown-menu>.active>a:focus {
+        color: #ffffff;
+        background-color: #ffc72b;
+    }
+}
+
+
+/***************  ********************/
+
+
+/***************  ********************/
