@@ -10,6 +10,10 @@
 
     <link href="bootstrapSource/css/bootstrap.min.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="source/css/style.css">
+    <!-- Gem style -->
+    <script src="source/js/modernizr.js"></script>
+    <!-- Modernizr -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="bootstrapSource/js/bootstrap.min.js"></script>
 </head>
@@ -34,13 +38,13 @@
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav nav-justified">
-                        <li><a href="#">首页</a></li>
-                        <li><a href="#">关于我们</a></li>
-                        <li><a href="#">事件报道</a></li>
-                        <li><a href="#">孩子们</a></li>
-                        <li><a href="#">长期资助</a></li>
-                        <li><a href="#">联系与捐助</a></li>
-                        <li><a href="#">赞助者</a></li>
+                        <li><a href="index.html">首页</a></li>
+                        <li><a href="about.html">关于我们</a></li>
+                        <li><a href="news.html">事件报道</a></li>
+                        <li><a href="kids.html">孩子们</a></li>
+                        <li><a href="longterm.html">长期资助</a></li>
+                        <li><a href="volunteer.html">联系与捐助</a></li>
+                        <li><a href="sponsors.html">赞助者</a></li>
                     </ul>
                 </div>
             </div>
