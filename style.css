@@ -1,20 +1,49 @@
 /*************** general settings ********************/
 
 p {
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
-@media (max-width: 767px) {
-    nav a {
-        font-size: 1.3em
-    }
+h4 {
+    font-size: 1.1em;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
 }
 
 
 /*************** common settings ********************/
 
+.lang-container {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.staff-nav {
+    font-family: "微软雅黑";
+    font-weight: bold;
+    color: #7fa626;
+    font-size: 1.5em;
+}
+
 .sub-link {
     font-size: 1.2em;
+    color: #808080;
+    font-weight: bold;
+    font-family: "FangSong", "仿宋", "STFangSong", "华文仿宋";
 }
 
 .white-space {
@@ -41,6 +70,25 @@ p {
     font-size: 2.0em;
 }
 
+.paragraph-block {
+    margin: 10px 0px;
+    text-indent: 50px;
+}
+
+
+/* news page styles */
+
+.news-container {
+    margin-top: 2%;
+    margin-bottom: 10%;
+    margin-left: 5%;
+}
+
+#news-container ul li {
+    padding: 5px 0;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
 
 /* centered columns styles */
 
@@ -55,6 +103,37 @@ p {
     text-align: left;
     /* inline-block space fix */
     margin-right: -4px;
+}
+
+.margin-b-3-pc {
+    margin-bottom: 3%;
+}
+
+.margin-b-5-pc {
+    margin-bottom: 5%;
+}
+
+.margin-l-5-pc {
+    margin-left: 5%;
+}
+
+.margin-b-10-px {
+    margin-bottom: 10px;
+}
+
+.text-index-0-px {
+    text-indent: 0px;
+}
+
+.text-index-50-px {
+    text-indent: 50px;
+}
+
+
+/* table styles */
+
+.table-bg-color-C {
+    background-color: #CCCCCC;
 }
 
 
@@ -151,6 +230,15 @@ p {
 
 
 /***************  ********************/
+
+@media (max-width: 767px) {
+    nav a {
+        font-size: 1.1em
+    }
+    .staff-nav {
+        font-size: 1em;
+    }
+}
 
 
 /***************  ********************/
