@@ -55,6 +55,11 @@ a:active {
     background-color: #CCCCCC;
 }
 
+.underline{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
 .underline-link {
     margin-bottom: 2px;
     padding-left: 0px;
@@ -209,6 +214,10 @@ a:active {
 
 .navbar-default .navbar-link:hover {
     color: #ffffff;
+}
+
+.word-keep{
+    word-break:keep-all;
 }
 
 @media (max-width: 767px) {
