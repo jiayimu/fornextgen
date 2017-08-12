@@ -146,6 +146,7 @@ a:active {
 
 .navbar {
     margin: 0 auto;
+    min-height: 20px;
 }
 
 .navbar-default {
