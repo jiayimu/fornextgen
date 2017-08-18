@@ -37,15 +37,15 @@
                     </button>
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
-                    <ul class="nav nav-justified">
-                        <li><a href="index.html">首页</a></li>
-                        <li><a href="about.html">关于我们</a></li>
-                        <li><a href="news.html">事件报道</a></li>
-                        <li><a href="kids.html">孩子们</a></li>
-                        <li><a href="longterm.html">长期资助</a></li>
-                        <li><a href="volunteer.html">联系与捐助</a></li>
-                        <li><a href="sponsors.html">赞助者</a></li>
-                    </ul>
+                   <ul class="nav nav-justified">
+						<li><a href="index.html">首页</a></li>
+						<li><a href="about.html">关于我们</a></li>
+						<li><a href="news.html">事件报道</a></li>
+						<li><a href="kids.html">孩子们</a></li>
+						<li><a href="longterm.html">长期资助</a></li>
+						<li><a href="volunteer.html" class="word-keep">联系与捐助</a></li>
+						<li><a href="sponsors.html">赞助者</a></li>
+					</ul>
                 </div>
             </div>
         </nav>
