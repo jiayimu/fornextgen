@@ -221,6 +221,10 @@ a:active {
     word-break:keep-all;
 }
 
+.selected-menu{
+    color:#ff8000;
+}
+
 @media (max-width: 767px) {
     .navbar-default .nav-justified .dropdown-menu>li>a {
         color: #ffffff;
