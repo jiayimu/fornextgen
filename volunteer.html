@@ -152,7 +152,7 @@
             </div>
             <div class="form-group">
                 <div class="col-sm-offset-2 col-sm-10">
-                    <button type="submit" name="submit" class="btn btn-default">Submit</button>
+                    <button type="submit" name="submit" class="btn btn-default" onclick="javascript:loadContact()">提交</button>
                 </div>
             </div>
         </form>
@@ -170,3 +170,34 @@
 </body>
 
 </html>
+<script language="javascript">
+	var num = 0;
+	function clearIt()
+	{
+	  if (num == 0)
+	    document.getElementById("comments").value = "";
+	  num = 1;
+	}
+
+	function loadContact()
+	{
+	  var email = document.getElementById("email");
+	  var valid = "true";
+	  if (email.value ==  null || email.value.length == 0)
+	  {
+	    valid = "false";
+	    alert("电邮地址是必填栏目，请您填写。");
+	    email.focus();
+	  }
+	  else if (email.value.indexOf("@") < 1 || email.value.indexOf(".") < 1)
+	  {
+	    valid = "false";
+	    alert("请您填写正确格式的电邮地址。");
+	    email.focus();
+	  }
+	  if(valid == "true")
+	    document.joinForm.submit();
+	}
+</script>
+
+
